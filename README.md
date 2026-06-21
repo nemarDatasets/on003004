@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003004-blue)](https://doi.org/10.82901/nemar.on003004)
+
 **PARADIGM:** The study uses the method of guided imagery to induce resting, eyes-closed participants using voice-guided imagination to enter distinct 15 emotion states during acquisition of high-density EEG data. 
 
 During the study, participants listen to 15 voice recordings that each suggest imagining a scenario in which they have experienced -- or would experience the named target emotion. Some target emotions have positive valence (e.g., joy, happiness), others negative valence (e.g., sadness, anger). Before and between the 15 emotion imagination periods, participants hear relaxation suggestions ('Now return to a neutral state by ...').
