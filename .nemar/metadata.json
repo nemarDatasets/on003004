@@ -2,18 +2,35 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Imagined Emotion Study",
+  "description": "This high-density EEG dataset captures brain activity during guided emotional imagery across 15 distinct emotion states. Participants listened to voice-guided scenarios designed to evoke emotions with varying valence (positive and negative) while their neural activity was recorded with eyes closed. The dataset includes preprocessed EEG data with artifact correction and high-pass filtering, providing a resource for investigating neural correlates of emotion imagination and brain state dynamics during emotional experiences.",
+  "methods_description": "Participants underwent guided imagery procedures in which voice recordings suggested imagining scenarios associated with 15 target emotions. Participants indicated emotion onset and offset via button press and were instructed to attend to somatosensory sensations to intensify emotional experiences. High-density EEG was acquired during these periods, interspersed with relaxation instructions. Raw data were preprocessed to correct event codes, remove noisy channels, and apply 1-Hz high-pass filtering for ICA decomposition.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Julie Onton": {},
     "Scott Makeig": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003004.v1.1.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "emotion imagery"
+    },
+    {
+      "term": "guided imagery"
+    },
+    {
+      "term": "brain state dynamics"
+    },
+    {
+      "term": "affective neuroscience"
+    },
+    {
+      "term": "high-density EEG"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.3389/neuro.09.061.2009",
       "identifier_type": "DOI",
@@ -38,14 +55,19 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003004",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003004.v1.1.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "38.7 GB (69 files)"
   ],
   "formats": [
     ".fdt",
@@ -53,29 +75,8 @@
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises high-density electroencephalographic (EEG) recordings from participants engaged in guided emotional imagery across 15 distinct emotion states. Using voice-guided imagination protocols, participants were instructed to induce and maintain specific emotional states (both positive and negative valence) while EEG activity was continuously recorded. The dataset supports investigation of neural correlates of emotion regulation, emotional imagery, and brain state dynamics during self-paced emotional experiences.",
-  "methods_description": "High-density EEG data were acquired during guided emotional imagery sessions. Participants listened to voice recordings suggesting scenarios to evoke 15 target emotions, with relaxation instructions provided between imagery periods. Participants indicated emotion onset and offset via button press. Raw data were preprocessed to correct event codes, remove noisy channels, and apply a 1-Hz high-pass filter for ICA decomposition.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "emotion imagery"
-    },
-    {
-      "term": "emotional states"
-    },
-    {
-      "term": "guided imagery"
-    },
-    {
-      "term": "brain state dynamics"
-    },
-    {
-      "term": "electroencephalography"
-    }
-  ],
-  "source_hash": "705034554f1c570f332bb846e761df4c81f4297861e945c0e48a87a373be5032"
+  "source_hash": "5ec75e2a2c11f73b35ed3cc048295714481248ae15421557a2aa5dd8b99ea349"
 }
