@@ -1,0 +1,28 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003004",
+  "source": "openneuro",
+  "source_id": "ds003004",
+  "title": "Imagined Emotion Study",
+  "authors": {
+    "Julie Onton": {},
+    "Scott Makeig": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003004.v1.1.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.1.1",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
