@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Imagined Emotion Study",
-  "description": "This high-density EEG dataset captures brain activity during guided emotional imagery across 15 distinct emotion states. Participants listened to voice-guided scenarios designed to evoke emotions with varying valence (positive and negative) while their neural activity was recorded with eyes closed. The dataset includes preprocessed EEG data with artifact correction and high-pass filtering, providing a resource for investigating neural correlates of emotion imagination and brain state dynamics during emotional experiences.",
-  "methods_description": "Participants underwent guided imagery procedures in which voice recordings suggested imagining scenarios associated with 15 target emotions. Participants indicated emotion onset and offset via button press and were instructed to attend to somatosensory sensations to intensify emotional experiences. High-density EEG was acquired during these periods, interspersed with relaxation instructions. Raw data were preprocessed to correct event codes, remove noisy channels, and apply 1-Hz high-pass filtering for ICA decomposition.",
+  "description": "High-density EEG recorded from resting, eyes-closed participants who used voice-guided imagery to enter 15 distinct emotional states, including positive states such as joy and negative states such as sadness and anger. Participants pressed a button when they began to feel the target emotion and again when the feeling waned, with relaxation instructions between the imagery periods. The dataset supports research on EEG-based emotion recognition and brain state dynamics during emotion imagination.",
+  "methods_description": "Participants listened to 15 voice recordings, each prompting imagination of a scenario evoking a target emotion, and pressed a handheld button at the onset and end of the felt emotion. Relaxation suggestions were played before and between the emotion periods. Raw data were preprocessed to fix event codes and remove excessively noisy channels, then high-pass filtered at 1 Hz for ICA decomposition.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,16 +15,20 @@
       "term": "EEG"
     },
     {
-      "term": "emotion imagery"
+      "term": "Emotions",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004644"
+    },
+    {
+      "term": "Imagination",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007092"
     },
     {
       "term": "guided imagery"
     },
     {
-      "term": "brain state dynamics"
-    },
-    {
-      "term": "affective neuroscience"
+      "term": "emotion recognition"
     },
     {
       "term": "high-density EEG"
@@ -52,14 +56,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003004",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds003004.v1.1.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003004",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -67,7 +71,7 @@
     "eeg"
   ],
   "sizes": [
-    "38.7 GB (69 files)"
+    "36.05 GB (69 files)"
   ],
   "formats": [
     ".fdt",
